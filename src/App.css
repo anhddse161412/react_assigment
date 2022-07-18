@@ -1,0 +1,125 @@
+.App {
+  text-align: center;
+  background-color: #333333;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.body-content{
+  background-color: #333333;
+  color: #f6f6f6;
+}
+
+.form-control.is-valid, .was-validated .form-control:valid {
+  background-color: #333333;
+  color: #f6f6f6;
+}
+
+.form-control.is-invalid , .was-validated .form-control:invalid{
+  background-color: #333333;
+  color: #f6f6f6;
+}
+
+textarea.form-control{
+  background-color: #333333;
+  border-color: #28a745;
+  color: #f6f6f6;
+}
+
+.form-control{
+  background-color: #333333 !important;
+  color: #f6f6f6 !important;
+}
+
+.form-control :focus{
+  background-color: #333333;
+  color: #f6f6f6;
+}
+
+.modal-body{
+  background-color: #333333;
+  color: #f6f6f6;
+}
+
+.modal-header{
+  background-color: #707070;
+  color: #f6f6f6;
+}
+
+.row-header{
+  margin:0px auto;
+  padding:0px auto;
+}
+
+.row-content {
+  margin:0px auto;
+  padding: 50px 0px 50px 0px;
+  border-bottom: 1px ridge;
+}
+
+.footer{
+  background-color: #2a2b2f;
+  color: #f6f6f6;
+  margin:0px auto;
+  padding: 20px 0px 20px 0px;
+}
+
+.Jumbotron{
+  padding:50px 30px 50px 30px;
+  margin:0px auto;
+  background: #2a2b2f ;
+  color: #f6f6f6;
+}
+
+address{
+  font-size:80%;
+  margin:0px;
+  color:#f6f6f6;
+}
+
+.navbar-dark {
+  background-color: #2a2b2f;
+}
+
+.navbar-toggler-icon{
+  background-color: #f0f3f4;
+  color: #f6f6f6;
+}
+
+.card-content{
+  background: #2a2b2f ;
+  color: #f6f6f6;
+}
+
