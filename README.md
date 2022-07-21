@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-This CRUD project use fecth to get data from mockapi.io.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\
+This CRUD project use fetch to get data from mockapi.io.
 
 ## Available Scripts
 
